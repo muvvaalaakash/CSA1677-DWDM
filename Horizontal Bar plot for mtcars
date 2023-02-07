@@ -1,2 +1,2 @@
-ounts <- table(mtcars$gear)
+counts <- table(mtcars$gear)
  barplot(counts,main="car distribution",horiz=TRUE,names.arg=c("3 gears","4 gears","5 gears"))
